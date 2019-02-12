@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Wallet</title>
+    <script type="text/javascript">
+      
+      function MM_jumpMenu(targ,selObj,restore){ //v3.0
+
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+
+  if (restore) selObj.selectedIndex=0;
+
+}
+
+</script> </head>
+  <body>
+    <table style="width:100%">
+      <tbody>
+        <tr>
+          <td><a href="https://www.supremenewyork.com"><img src="../Images/RMS.png"
+                width="200"
+                height="100"></a></td>
+          <td><a href="Homepage.html">Homepage</a></td>
+          <td><a href="ProductPage.html">Product Page</a></td>
+          <td><a href="cart.php">Cart</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <form action="cart.php" method="post"> <input name="code" value="6" type="hidden">
+      <input name="Desired_Action" value="Adding" type="hidden">
+      <div>
+        <h1 style="float: left"> Supreme Wallet</h1>
+        <input value="Supreme Wallet" name="name" style="visibility:hidden;height:0px;width:0px;border:none;"
+          type="text">
+        <h1 style="float: right; height: 42px;"> Price: $<input value="599.00" name="price"
+            style="visibility:hidden;height:0px;width:0px;border:none;"
+            type="text">599.00
+          </h1> </div>
+      <input value="1017" name="uid" style="visibility:hidden;height:0px;width:0px;border:none;"
+        type="text">
+      <table width="100%" border="0">
+        <tbody>
+          <tr>
+            <td rowspan="6" width="28%" valign="top" align="left"> <img
+                style="float: left"
+                src="../Images/6.jpg"
+                width="500"
+                height="377"></td>
+            <td width="72%" valign="top" align="left" height="21">
+              <h2>Product Description </h2>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p> Money is a thing we want to keep safe with us while we go
+                through our day. Well why not grab a supreme wallet with the LV
+                Collaboration. Slender by name, slender by nature. This wallet
+                in elegant Damier Cobalt canvas is suitably compact and slim,
+                will carry all the essentials and still fit into a front or back
+                pocket with ease. Made of 100 percent real leather. Bright red
+                so you can standout whereever you go. </p>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" height="28">Select Qty:
+              <select name="quantity" size="1" id="qty" onchange="">
+                <option selected="selected">1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+              <input name="add to cart button" id="add to cart button" value="ADD TO CART"
+type="submit">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="top" align="left" height="16"><b>Supplier:
+                Supreme </b></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <a href="Product5.html" class="previous">« Previous</a> <a href="Product7.html"
+      class="next">Next
+      »</a>
+  </body>
+</html>
