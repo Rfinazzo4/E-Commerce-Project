@@ -1,5 +1,5 @@
 # E-Commerce-Project
-This Website used concepts to track fake purchase order information using Forms, Sessions, Cookies, 
+This Website tracks fake purchase order information using concepts such as Forms, Sessions, Cookies, 
 and ultimately saving the information in a Mongo Database.
 
 
